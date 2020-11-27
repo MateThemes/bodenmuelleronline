@@ -3,7 +3,7 @@
     <div class="uk-navbar-container uk-hidden@m" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top; top: 250;">
       <nav data-uk-navbar>
         <div class="uk-navbar-left">
-          <NuxtLink to="/" class="uk-navbar-toggle">
+          <NuxtLink to="/" class="uk-navbar-toggle" aria-label="Zurück zur Startseite">
             <span data-uk-icon="chevron-left"></span> <span class="uk-margin-small-left">Zurück</span>
           </NuxtLink>
         </div>
@@ -16,7 +16,7 @@
       <div class="uk-container uk-container-large">
         <nav class="uk-navbar" data-uk-navbar>
           <div class="uk-navbar-left">
-            <NuxtLink to="/" class="uk-navbar-toggle">
+            <NuxtLink to="/" class="uk-navbar-toggle" aria-label="Zurück zur Startseite">
               <span data-uk-icon="chevron-left"></span> <span class="uk-margin-small-left">Zurück</span>
             </NuxtLink>
           </div>
