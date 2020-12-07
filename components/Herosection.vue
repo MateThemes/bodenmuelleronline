@@ -1,6 +1,6 @@
 <template>
   <div class="uk-section-secondary">
-    <div data-src="/images/hero-langriemenparkett.jpg" data-sizes="(max-aspect-ratio: 2560/1440) 178vh" data-uk-img
+    <div data-src="/images/hero-startseite.jpg" data-sizes="(max-aspect-ratio: 2560/1440) 178vh" data-uk-img
          class="uk-background-norepeat uk-background-cover uk-background-center-right uk-section uk-section-large uk-flex uk-flex-middle"
          data-uk-parallax="bgx: 0,-60" data-uk-height-viewport="offset-top: true;">
       <div class="uk-width-1-1">
