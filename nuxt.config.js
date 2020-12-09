@@ -23,8 +23,8 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ],
     script: [
-      { src: 'js/uikit.min.js', body: true },
-      { src: 'js/uikit-icons.min.js', body: true },
+      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit.min.js', body: true },
+      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit-icons.min.js', body: true },
       { src: 'js/custom.js', body: true },
     ]
   },
