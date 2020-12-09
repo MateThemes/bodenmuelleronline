@@ -24,6 +24,12 @@
                         </li>
                         <li>
                             <div class="uk-panel">
+                                <img data-src="/images/partner/erfal_logo.svg"
+                                    alt="Produkte von Erfal bei Boden Müller" data-uk-img />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
                                 <img data-src="/images/partner/partner-deislparkettmanufaktur.svg"
                                     alt="Produkte von Deisl Parkettmanufaktur bei Boden Müller" data-uk-img />
                             </div>

@@ -34,8 +34,8 @@
                                             <div class="el-content uk-panel uk-text-lead uk-margin-top">
                                                 <ul class="uk-list">
                                                     <li>Bodenbelag für jeden Zweck</li>
+                                                    <li>Innen-Sonnenschutz</li>
                                                     <li>Zuverlässig, schnell und flexibel</li>
-                                                    <li>Zufriedenheitsgarantie</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -47,6 +47,7 @@
                                                     <li>Flexible Terminauswahl</li>
                                                     <li>Qualität vom Fachmann</li>
                                                     <li>Faire Kostenkalkulation</li>
+                                                    <li>Zufriedenheitsgarantie</li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -20,8 +20,7 @@
             <div id="tm-mobile-menu" data-uk-offcanvas="mode: push; overlay: true">
                 <div class="uk-offcanvas-bar">
                     <button class="uk-offcanvas-close" type="button" data-uk-close></button>
-                    <div class="uk-text-center uk-margin-large-top uk-margin-large-bottom"
-                        data-uk-scrollspy="cls:uk-animation-scale-up; repeat: true; delay: 100">
+                    <div class="uk-text-center uk-margin-large-top uk-margin-large-bottom">
                         <img src="/images/logo.svg" width="250" alt="Bodenbeläge Müller - München">
                     </div>
                     <div class="uk-child-width-1-1" data-uk-grid>
