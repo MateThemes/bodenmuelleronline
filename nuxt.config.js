@@ -1,10 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  //router: {
-    //base: '/<bodenmuelleronline>/'
-  //},
-
   // Loading
   loading: '~/components/loading.vue',
 
@@ -23,9 +19,8 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ],
     script: [
-      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit.min.js', body: true },
-      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit-icons.min.js', body: true },
-      { src: 'js/custom.js', body: true },
+      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit.min.js' },
+      { src: 'https://cdn.jsdelivr.net/npm/uikit@3.5.13/dist/js/uikit-icons.min.js' },
     ]
   },
 
@@ -98,11 +93,8 @@ export default {
         identifier: 'ga',
         //if multilanguage
         description: {
-          en:  'Google GTM is ...'
+          en:  'Google GTM is ...',
         },
-        //else
-        description:  'Google GTM is...',
-
         initialState: true,
         src:  'https://www.googletagmanager.com/gtag/js?id=<API-KEY>',
         async:  true,

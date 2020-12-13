@@ -26,27 +26,27 @@
                     <div class="uk-child-width-1-1" data-uk-grid>
                         <div>
                             <div class="uk-panel">
-                                <ul class="uk-nav uk-nav-default" data-uk-scrollspy-nav="closest: li;scroll: true; offset-top: 100; esc-close: true;" data-uk-nav>
+                                <ul class="uk-nav uk-nav-default" data-uk-nav data-uk-scrollspy-nav="closest: li;scroll: true; offset-top: 100; esc-close: true;">
                                     <li>
-                                      <a href="#top" class="link-target" data-uk-scroll>Home</a>
+                                      <a href="#top" data-uk-scroll>Home</a>
                                     </li>
                                     <li>
-                                        <a href="#services" class="link-target" data-uk-scroll>Services</a>
+                                        <a href="#services" @click="closeMenu" data-uk-scroll>Services</a>
                                     </li>
                                     <li>
-                                        <a href="#about" class="link-target" data-uk-scroll>Über uns</a>
+                                        <a href="#about" @click="closeMenu" data-uk-scroll>Über uns</a>
                                     </li>
                                     <li>
-                                        <a href="#products" class="link-target" data-uk-scroll>Produkte</a>
+                                        <a href="#products" @click="closeMenu" data-uk-scroll>Produkte</a>
                                     </li>
                                     <li>
-                                        <a href="#examples" data-uk-scroll>Beispiele</a>
+                                        <a href="#examples" @click="closeMenu" data-uk-scroll>Beispiele</a>
                                     </li>
                                     <li>
-                                        <a href="#partner" class="link-target" data-uk-scroll>Partner</a>
+                                        <a href="#partner" @click="closeMenu" data-uk-scroll>Partner</a>
                                     </li>
                                     <li>
-                                        <a href="#contact" class="link-target" data-uk-scroll>Kontakt</a>
+                                        <a href="#contact" @click="closeMenu" data-uk-scroll>Kontakt</a>
                                     </li>
                                 </ul>
                             </div>
@@ -96,3 +96,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    closeMenu (event) {
+      UIkit.offcanvas('#tm-mobile-menu').hide();
+    }
+  }
+}
+</script>

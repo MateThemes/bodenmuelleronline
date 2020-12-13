@@ -17,6 +17,7 @@
 
 <script>
     export default {
+      layout: "default",
       mounted() {
         this.$nextTick(() => {
           this.$nuxt.$loading.start()
