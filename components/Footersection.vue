@@ -21,6 +21,9 @@
             <div class="uk-h5 uk-margin-remove-vertical uk-text-left@m uk-text-center">
               Fax +49 89 222761
             </div>
+            <div class="uk-h5 uk-margin-remove-vertical uk-text-left@m uk-text-center">
+              info[at]boden-mueller.de
+            </div>
           </div>
         </div>
       </div>
